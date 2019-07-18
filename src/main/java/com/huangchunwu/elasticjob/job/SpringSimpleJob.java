@@ -22,7 +22,6 @@ import com.dangdang.ddframe.job.api.simple.SimpleJob;
 import com.google.gson.Gson;
 import com.huangchunwu.elasticjob.domain.Article;
 import com.huangchunwu.elasticjob.repository.IArticleRepository;
-import jdk.nashorn.internal.runtime.JSONFunctions;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.util.CollectionUtils;
 
