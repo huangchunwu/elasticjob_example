@@ -1,0 +1,17 @@
+regCenter:
+  serverList: 127.0.0.1:2181
+  namespace: 12306GrabTikcet
+  
+simpleJob:
+  cron: 0/5 * * * * ?
+  shardingTotalCount: 2
+  shardingItemParameters: 0=spring,1=mongodb
+  
+dataflowJob:
+  cron: 0/5 * * * * ?
+  shardingTotalCount: 2
+  shardingItemParameters: 0=spring,1=mongodb
+
+spring:
+  profiles:
+    active: dev
